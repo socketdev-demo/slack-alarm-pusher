@@ -1,0 +1,19 @@
+# Socket API Key - Get from https://socket.dev
+SOCKET_KEY=your_socket_api_key_here
+
+# Slack Webhook URL for notifications
+SLACK_WEBHOOK=your_slack_webhook_url_here
+
+# Poll interval in milliseconds (default: 600000 = 10 minutes)
+POLL_INTERVAL_MS=600000
+
+# Severity filter: low, medium, high (default: high)
+SEVERITY_FILTER=high
+
+# Repository filter: comma-separated list of repo names (optional, null = all repos)
+# Example: REPO_FILTER=my-repo,another-repo
+REPO_FILTER=
+
+# Category filter: comma-separated list of alert categories (optional, null = all categories)
+# Example: CATEGORY_FILTER=vulnerability,malware
+CATEGORY_FILTER=
